@@ -92,6 +92,11 @@ Code is dockerized, make sure you have docker installed in your system and make 
         * Similarly different routers can be defined.
     * ```schemas``` : contains schemas for request-bodies for the requests.
 
+* Classes are used in middleware to save on-demand computer, multiple resources might need pre-computation to read resources or process them and then keep them in memory, assuming that the classes have static variable and methods to pre-calculate operations.
+* Functions are constructed in a way to have full control over each step, assuming there might be some more configurable changes in the future for ex : change the total calculating mechanism by adding 10% hike charge to OS parts only. This can be achieved on multiple levels and will still leave scope for other set of changes.
+* Idea is to entertain request only till it makes sense to, meaning in case error is encountered, other succeeding operations are not done, exception is raised without proceeding to any try-except block.
+
+
 ### Assumptions
 * Number of parts(screen, os etc) will not grow as fast as the components themselves.
 * Details for component-list provided in the test are added to ```resources/constants/CODE_2_PRICE-PART.json``` and assumed to be in this chosen format.
