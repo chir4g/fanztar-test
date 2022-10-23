@@ -1,0 +1,50 @@
+{
+    "A": [
+        10.28,
+        "LED Screen"
+    ],
+    "B": [
+        24.07,
+        "OLED Screen"
+    ],
+    "C": [
+        33.3,
+        "AMOLED Screen"
+    ],
+    "D": [
+        25.94,
+        "Wide-Angle Camera"
+    ],
+    "E": [
+        32.39,
+        "Ultra-Wide-Angle Camera"
+    ],
+    "F": [
+        18.77,
+        "USB-C Port"
+    ],
+    "G": [
+        15.13,
+        "Micro-USB Port"
+    ],
+    "H": [
+        20.0,
+        "Lightning Port"
+    ],
+    "I": [
+        42.31,
+        "Android OS"
+    ],
+    "J": [
+        45.0,
+        "iOS OS"
+    ],
+    "K": [
+        45.0,
+        "Metallic Body"
+    ],
+    "L": [
+        30.0,
+        "Plastic Body"
+    ]
+}
